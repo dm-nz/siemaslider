@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.siema {
+  margin: 1rem 0;
+  position: relative;
+}
+
+.siema-arrow {
+  position: absolute;
+  top: 45%;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  cursor: pointer;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.siema-arrow:hover {
+    opacity: 1;
+}
+
+.siema-prev {
+  left: 20px;
+  background-image: url('../img/left-chevron.svg');
+}
+
+.siema-next {
+  right: 20px;
+  background-image: url('../img/right-chevron.svg');
+}
